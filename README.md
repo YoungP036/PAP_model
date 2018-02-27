@@ -6,4 +6,4 @@ https://github.com/stormy-ua/dog-breeds-classification
 
 https://github.com/tensorflow/models/tree/master/research/inception
 
-    https://raw.githubusercontent.com/tensorflow/models/master/research/inception/g3doc/inception_v3_architecture.png
+https://raw.githubusercontent.com/tensorflow/models/master/research/inception/g3doc/inception_v3_architecture.png
