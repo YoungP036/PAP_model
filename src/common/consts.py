@@ -15,7 +15,7 @@ TRAIN_SAMPLE_SIZE = 3000
 
 # name of the model being referenced by all other scripts
 # CURRENT_MODEL_NAME = 'test_v1.0'
-CURRENT_MODEL_NAME = 'Pic-a-Breed_v1.1'
+CURRENT_MODEL_NAME = 'Pic-a-Breed_v1.0'
 # sets up number of layers and number of units in each layer for
 # the "head" dense neural network stacked on top of the Inception
 # pre-trained model.

@@ -57,8 +57,8 @@ def make_model_name(prefix, batch_size, learning_rate):
 
 if __name__ == '__main__':
     BATCH_SIZE = 64
-    EPOCHS_COUNT = 10000
-    # EPOCHS_COUNT = 100
+    # EPOCHS_COUNT = 10000
+    EPOCHS_COUNT = 100
     LEARNING_RATE = 0.0001
 
     model_name = consts.CURRENT_MODEL_NAME

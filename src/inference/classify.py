@@ -25,6 +25,8 @@ def infer(model_name, img_raw):
 
         breeds = one_hot_decoder(np.identity(consts.CLASSES_COUNT)).reshape(-1)
 
+        for breed in breeds:
+            print(breed)
         # print(breeds)
 
         df = pd.DataFrame(data={'prob': probs.reshape(-1), 'breed': breeds})
@@ -47,6 +49,7 @@ if __name__ == '__main__':
     src = sys.argv[1]
     path = sys.argv[2] # uri to a dog image to classify
     probs = classify(src, path)
-
+    print("Querying: " + os.path.basename(path))
     print(probs.sort_values(['prob'], ascending=False).take(range(5)))
+    print("\n\n")
 
