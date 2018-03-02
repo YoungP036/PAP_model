@@ -1,12 +1,12 @@
-https://groups.google.com/forum/#!topic/gensim/g6L0WytGCdE
-
+Image query
+  1. cd into root directory of this project
+  2. sudo pip install -r requirements.txt
+  3. python -m src.inference.classify file /full/path/to/file
+     or
+     python -m src.inference.classify uri www.url/to/img
+  
 https://towardsdatascience.com/dog-breed-classification-hands-on-approach-b5e4f88c333e
 
-https://github.com/stormy-ua/dog-breeds-classification
-
-https://github.com/tensorflow/models/tree/master/research/inception
-
-https://raw.githubusercontent.com/tensorflow/models/master/research/inception/g3doc/inception_v3_architecture.pngaffenpinscher
 
 afghan_hound
 african_hunting_dog
